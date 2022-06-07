@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <!DOCTYPE listapedidos SYSTEM "Ejercicio-2.dtd"> -->
-<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="Marcadores.xsd">
-    <listapedidos>
-        <pedido>
-            <numero_serie>213654654</numero_serie>
-            <cantidad>12</cantidad>
-            <peso>12.55 kg</peso>
-        </pedido>
-    </listapedidos>
-</marcadores>
+<!DOCTYPE listapedidos SYSTEM "Ejercicio-2.dtd">
+<listapedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="Ejercicio-2.xsd">
+    <pedido>
+        <numero_serie>213654654</numero_serie>
+        <cantidad>12</cantidad>
+        <peso>12.55 kg</peso>
+    </pedido>
+</listapedidos>
